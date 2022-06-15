@@ -6,8 +6,8 @@ if(NOT CMAKE_BUILD_TYPE)
     set(CMAKE_BUILD_TYPE "Release")
 endif()
 
-add_subdirectory(muduo)
-include_directories("muduo")
+add_subdirectory(./lib/muduo)
+include_directories("./lib/muduo")
 
 add_executable(echo ./src/echo.cpp)
 target_link_libraries(echo muduo_net)

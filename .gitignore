@@ -33,3 +33,7 @@
 
 # Others
 cmake-build-*
+build
+.idea
+.vscode
+.vs
